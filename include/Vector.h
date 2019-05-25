@@ -19,6 +19,7 @@ public:
 
     T &operator [] (int);
 
+
     Vector<T, S> operator= (const Vector<T, S>& lhs)
     {
        if(this != &lhs)

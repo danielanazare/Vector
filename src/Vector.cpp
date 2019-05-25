@@ -55,3 +55,4 @@ unsigned int Vector<T, S>::getSize()
 ///declare type of vectors to be used in main.cpp
 template class Vector<int, 4 >;
 template class Vector<int, 10>;
+template class Vector<char, 4>;
